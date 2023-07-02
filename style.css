@@ -1,0 +1,26 @@
+  h1{
+    text-align: center;
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+   .images {
+     display: flex;
+   }
+   
+   .images img {
+     display: block;
+     width: 90rem;
+     margin: 4rem;
+   }
+   
+   .images img.parallel {
+     width: 40rem;
+     margin: 2rem;
+     border: 3rem solid white;
+     box-shadow: 0 2rem 5rem 1rem rgba(0, 0, 0, 0.1);
+   }
